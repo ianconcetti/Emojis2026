@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "pizza caprese",
+        "precio": 34170,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza_caprese.webp",
+        "descripcion": "pizza caprese"
+    },
+
+    {
+        "nombre": "pizza especial jamon",
+        "precio": 40628,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza_jamon.webp",
+        "descripcion": "pizza esp. jamon"
+    },
+
+    {
+        "nombre": "pizza napolitana",
+        "precio": 27846,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza_muzza.webp",
+        "descripcion": "pizza napolitana, el corazon de nuestro local
