@@ -1,0 +1,32 @@
+  main h2 {
+    font-size: 1.2rem;
+  }
+ 
+  .gallery li {
+    padding: 5px;
+  }
+  
+   
+  .gallery li .box h3 {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  
+  .gallery li .box p {
+    font-size: 1.2rem;
+  }
+  
+ .gallery li .box .button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+  
+  .footer-nav ul li a {
+    font-size: 0.85rem;
+  }
+ 
+  .footer-copyright {
+    font-size: 0.75rem;
+    <!-- Font Awesome -->
+
+</a>
