@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', cargarProductos);
 
 async function cargarProductos() {
@@ -9,10 +10,10 @@ async function cargarProductos() {
     li.innerHTML=`
 <div class="box">
                     <figure>
-                        <img src="${pizza.imagen}" />
+                        <img src="${pizza.imagen}" class="img-clickeable"/>
                         <figcaption>
                             <h3>${pizza.nombre}</h3>
-                            <p>${pizza.precio}</p>
+                            <p>$ ${pizza.precio.toLocaleString('es-AR')}</p>
                             <time>${pizza.fecha}</time>
                         </figcaption>
                     </figure>
@@ -21,5 +22,10 @@ async function cargarProductos() {
                     </button>
 </div>
  `;
+    // ✅ Abrir el modal al hacer clic en la imagen
+    const img = li.querySelector('.img-clickeable');
+    img.addEventListener('click', () => abrirModal(pizza));
+    
     gallery.appendChild(li);
   })
+}
